@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>passion cloud</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+        background-color: #efefef;
+        font-size: 9pt;
+      }
+      ul {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+      }
+      li {
+        margin: 10px;
+      }
+    </style>
+    <script src="content.js"></script>
+  </head>
+  <body>
+      <h1><img src="img/icon72.png"/>passion cloud</h1>
+      <p>「passion cloud」は chrome のパスワード管理機能が利用できないサイトに対して、手動でパスワードを登録するための Chrome Extension です。</p>
+     <p>この拡張機能でパスワードを保存した場合には...
+      <ul>
+          <li>URL は、ログイン ID の後ろに "@@" で区切られて保存されます。</li>
+          <li>Chrome 上に保存される URL は、"chrome-extension://xxxx..." のようになります。</li>
+      </ul>
+       <form method="POST" action="complete.html">
+          URL: <input type="text" name="url"><br/>
+          ログイン ID: <input type="text" name="username" ng-model="username"><br/>
+          パスワード: <input type="password" name="password"><br/>
+          <input type="submit" name="submit" value="パスワードを保存">
+      </form>
+      </p>
+      <button id="show-password">Chrome のパスワード管理画面</button>
+  </body>
+</html>
