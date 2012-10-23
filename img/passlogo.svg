@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="passlogo.svg">
+   sodipodi:docname="passlogo.svg"
+   inkscape:export-filename="C:\Users\mnanba\git\passioncloud\img\icon.png"
+   inkscape:export-xdpi="2.0599999"
+   inkscape:export-ydpi="2.0599999">
   <defs
      id="defs4">
     <filter
@@ -56,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -91,6 +94,6 @@
        sodipodi:rx="238.57143"
        sodipodi:ry="52.857143"
        d="m 608.57143,776.64789 a 238.57143,52.857143 0 1 1 -477.14286,0 238.57143,52.857143 0 1 1 477.14286,0 z"
-       transform="matrix(1.201602,0,0,1.0934057,-76.878463,-187.11479)" />
+       transform="matrix(1.201602,0,0,1.0934057,-76.878463,-147.11479)" />
   </g>
 </svg>
